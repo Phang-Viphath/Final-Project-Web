@@ -464,16 +464,16 @@ function Category_Computer() {
                                     <p class="text-gray-500 text-xs">${product.spec}</p>
                                     <p class="text-green-600 font-semibold">$ ${product.price}</p>
                                     <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white add-to-cart" data-product='${JSON.stringify(product)}'>
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white add-to-cart" data-product='${JSON.stringify(product)}'>
                                             🛒
                                         </button>
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white view-product" data-product='${JSON.stringify(product)}'>
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white view-product" data-product='${JSON.stringify(product)}'>
                                             👁️
                                         </button>
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white">
                                             ❤️
                                         </button>
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-black hover:text-white">
                                             ⚫
                                         </button>
                                     </div>
@@ -488,16 +488,16 @@ function Category_Computer() {
                                     <p class="text-gray-500 text-xs">${cart.spec}</p>
                                     <p class="text-green-600 font-semibold">$ ${cart.price}</p>
                                     <div class="flex justify-center space-x-2 mt-3 opacity-0 group-hover:opacity-100 transition duration-300">
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white add-to-cart" data-product='${JSON.stringify(cart)}'>
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-yellow-500 hover:text-white add-to-cart" data-product='${JSON.stringify(cart)}'>
                                             🛒
                                         </button>
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white view-product" data-product='${JSON.stringify(cart)}'>
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-blue-500 hover:text-white view-product" data-product='${JSON.stringify(cart)}'>
                                             👁️
                                         </button>
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white delete-cart" data-created-at='${cart.createdAt}'>
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-red-500 hover:text-white delete-cart" data-created-at='${cart.createdAt}'>
                                             🗑️
                                         </button>
-                                        <button class="p-2 bg-gray-200 rounded-md hover:bg-black hover:text-white">
+                                        <button class="p-1 bg-gray-200 rounded-md hover:bg-black hover:text-white">
                                             ⚫
                                         </button>
                                     </div>
